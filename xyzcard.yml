@@ -1,0 +1,5 @@
+---
+#- hosts: xyzcard-xcard-dev-mum
+- hosts: "{{appname}}-{{component}}-{{env}}-{{dc}}"
+  roles:
+    - nginx
